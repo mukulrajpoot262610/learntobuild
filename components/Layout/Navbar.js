@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="fixed z-50 backdrop-blur-xl flex justify-between items-center h-16 border-b border-slate-800 top-0 w-full px-4">
             <h1 className="uppercase text-font-800 text-3xl font-mono-2">Learn_To_Build</h1>
             <div className="flex items-center">
-                <a href="https://github.com/mukulrajpoot262610/learntobuild" target="_blank">
+                <a href="https://github.com/mukulrajpoot262610/learntobuild" target="_blank" rel="noreferrer">
                     <h1 className="btn capitalize text-xl btn-outline border-slate-600"><i className="fab text-2xl fa-github"></i><span className="hidden lg:block">&nbsp; GitHub</span></h1>
                 </a>
                 <button className="lg:hidden btn btn-outline btn-ghost ml-4 border-slate-600">
