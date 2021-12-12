@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        70: '71vh'
+      },
       fontFamily: {
         'mono': ['Ubuntu Mono'],
         'mono-2': ['VT323']

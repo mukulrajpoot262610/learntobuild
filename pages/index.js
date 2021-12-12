@@ -11,10 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="p-4">
         <div>
-          <h1>Learn To Build</h1>
-          <h1>Make your Learning journey faster</h1>
+          <h1 className="text-8xl">Learn To Build</h1>
+          <h1 className="text-3xl my-2">The Best way to learn to code is to code 😀</h1>
+          <h1>Tutorials are great, but building projects is the best way to learn. Do project based learning and learn code the right way!</h1>
         </div>
       </main>
 
