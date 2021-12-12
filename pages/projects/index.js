@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Card from '../../components/Card'
 
 const List = () => {
     return (
@@ -15,6 +16,13 @@ const List = () => {
                     <h1 className="text-5xl">Build Projects</h1>
                     <h1 className="text-3xl my-2">The Best way to learn to code is to code 😀</h1>
                     <h1>Tutorials are great, but building projects is the best way to learn. Do project based learning and learn code the right way!</h1>
+                </div>
+                <hr className="my-6 text-slate-700" />
+                <div className="flex flex-wrap justify-center">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                 </div>
             </main>
 

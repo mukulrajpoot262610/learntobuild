@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
                     <img src="/js.gif" className="rounded-2xl mt-12 w-1/2" />
                     <Sidebar />
                 </div>
-                <div className="w-12/12 sm:w-8/12 md:w-9/12 xl:w-10/12 p-4">
+                <div className="w-full lg:w-9/12 xl:w-10/12 p-4">
                     {children}
                 </div>
             </div>
