@@ -19,14 +19,14 @@ const Add = () => {
                 <div>
                     <h1 className="max-w-sm">Use the form below. It will create a new task on our open-source repository and one of our contributors will soon add it.</h1>
                     <form className="my-6">
-                        <div class="form-control my-4">
-                            <input placeholder="Project Tutorial URL" class="max-w-sm  input input-bordered" type="text" />
+                        <div className="form-control my-4">
+                            <input placeholder="Project Tutorial URL" className="max-w-sm  input input-bordered" type="text" />
                         </div>
-                        <div class="form-control my-4">
-                            <input placeholder="Project GitHub Link (Optional)" class="max-w-sm input input-bordered" type="text" />
+                        <div className="form-control my-4">
+                            <input placeholder="Project GitHub Link (Optional)" className="max-w-sm input input-bordered" type="text" />
                         </div>
 
-                        <div class="form-control my-4">
+                        <div className="form-control my-4">
                             <textarea className="textarea h-24 max-w-sm textarea-bordered" placeholder="Add a comment, suggest a category, etc (optional)"></textarea>
                         </div>
                         <button className="btn btn-outline border-slate-600">Send</button>
