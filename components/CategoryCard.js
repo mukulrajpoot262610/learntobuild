@@ -6,7 +6,7 @@ const CategoryCard = ({ data }) => {
     const { name, desc, link, thumbnail } = data
 
     return (
-        <Link href={`projects/${link}`}>
+        <Link href={`projects${link}`}>
             <div className="flex flex-col justify-center items-center border border-slate-700 m-2 p-4 rounded-2xl hover:border-slate-500 shadow-2xl cursor-pointer w-full max-w-screen-sm">
                 <img src={thumbnail} className="w-80 my-6" />
                 <div>

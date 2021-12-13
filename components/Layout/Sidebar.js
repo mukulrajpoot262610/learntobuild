@@ -3,7 +3,7 @@ import React from 'react'
 
 const Sidebar = () => {
     return (
-        <div className="self-start flex flex-col justify-between h-70">
+        <div className="lg:self-start flex flex-col justify-between h-70">
             <div className="py-4 artboard">
                 <ul className="menu p-4 shadow-lg rounded-box">
                     <li className="menu-title">
