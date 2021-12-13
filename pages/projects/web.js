@@ -2,10 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Card from '../../components/Card'
 import Filters from '../../components/Filters'
-import CategoryCard from '../../components/CategoryCard'
-import CATEGORY from '../../public/category.list'
 
-const List = () => {
+const Web = () => {
     return (
         <div>
             <Head>
@@ -21,17 +19,38 @@ const List = () => {
                     <h1>Tutorials are great, but building projects is the best way to learn. Do project based learning and learn code the right way!</h1>
                 </div>
                 <hr className="my-6 text-slate-700" />
-
-                <div className="flex flex-wrap justify-center">
-                    {
-                        CATEGORY.map((e) => <CategoryCard data={e} key={e.id} />)
-                    }
+                <div className="my-4">
+                    <Filters />
                 </div>
-
+                <div className="flex flex-wrap justify-center">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                </div>
             </main>
 
         </div>
     )
 }
 
-export default List
+export default Web
